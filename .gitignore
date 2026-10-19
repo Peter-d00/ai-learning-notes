@@ -1,0 +1,15 @@
+# Python 运行产生的缓存文件，不需要提交到 GitHub
+__pycache__/
+*.py[cod]
+
+# 虚拟环境目录（以后建了也要忽略）
+.venv/
+venv/
+
+# 编辑器/系统自动生成的文件
+.vscode/settings.json
+.DS_Store
+Thumbs.db
+
+# 本地密钥和配置（绝对不要提交真实 API Key）
+.env
